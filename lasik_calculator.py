@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title("ZAIN's READ LASIK Calculator")
+st.title("Dr ZAIN's Prebyopic LASIK Calculator")
 
 st.markdown("""
 This tool calculates the final refraction and Q value changes for presbyopic LASIK in hypermetropic patients based on your proprietary algorithm.
@@ -37,4 +37,14 @@ with col2:
     st.write(f"**Q Value Increase (limited to tolerance):** {le_q_change}")
 
 st.markdown("---")
-st.caption("Developed for Khatib Eye Clinic | Based on ZAIN's READ LASIK algorithm")
+st.markdown("### ⚠️ Clinical Conditions for Use")
+st.markdown("""
+The following modifications are done to increase depth of focus for **Presbyopic Hypermetropes** without inducing visually significant aberrations:
+
+1. Only to be done for **Hypermetropia / Hypermetropic Astigmatism**
+2. Only to be done on the **Wavelight EX500 platform**
+3. Applicable **only with a 6.0 mm Optic Zone**
+4. Must be performed using **CustomQ mode**, after capturing **Topolyzer images** and identifying the baseline **Q value** of the eye
+""")
+
+st.caption("Developed for Khatib Eye Clinic | Based on Dr Zain's Presbyopic LASIK algorithm")
