@@ -8,13 +8,8 @@ st.set_page_config(page_title="Dr Zain's Presbyopic LASIK Ray Diagram", layout="
 st.title("👁 Dr Zain's Presbyopic LASIK Ray Diagram Simulator")
 
 # Add download link to instruction PDF
-with open("Instructions_Dr Zain's Presbyopic_LASIK_Diagram_Simulator.docx", "rb") as f:
-    st.download_button(
-        label="📄 Download Instructions Manual",
-        data=f,
-        file_name="Instructions_Dr Zain's Presbyopic_LASIK_Diagram_Simulator.docx",
-        mime="application/vnd.openxmlformats-officedocument.wordprocessingml.document"
-    )
+with open("INSTRUCTIONS.docx", "rb") as f:
+    st.download_button("📄 Download Instructions Manual", f, file_name="Instructions_Dr_Zain_LASIK_Simulator.docx")
 
 # Actual Refraction Entry (for reference only)
 st.sidebar.header("🔎 Actual Distance Refraction (Input only, no diagram effect)")
