@@ -105,6 +105,4 @@ final_le_sphere = le_sphere + le_refraction + le_mono
 st.write(f"**Right Eye Final Sphere:** {final_re_sphere:.2f} D")
 st.write(f"**Left Eye Final Sphere:** {final_le_sphere:.2f} D")
 
-st.markdown("---")
-st.markdown("**Developed by Dr. Zain Khatib, Mumbai**  
-**Algorithm:** ZOOM Myopia Model")
+
