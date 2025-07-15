@@ -23,8 +23,7 @@ sa_le = st.sidebar.number_input("LE Corneal SA (μm)", min_value=0.00, max_value
 
 st.sidebar.header("🔍 BIA and Refraction Additions")
 bia = st.sidebar.slider("Binocular Inherent Accommodation (BIA)", 0.0, 2.5, 0.0, 0.25)
-re_refraction = st.sidebar.slider("Right Eye Refraction Add (D)", 0.0, 6.0, 0.0, 0.25)
-le_refraction = st.sidebar.slider("Left Eye Refraction Add (D)", 0.0, 6.0, 0.0, 0.25)
+
 
 st.sidebar.header("👓 Monovision Adjustments")
 monovision_eye = st.sidebar.selectbox("Eye for Monovision", ["None", "Right Eye", "Left Eye"])
